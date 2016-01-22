@@ -1,0 +1,60 @@
+html
+    head
+        meta(charset='utf-8')
+        link(rel='stylesheet' href='../css/page.css')
+        link(rel="stylesheet" href="../css/lib/jpages/style.css")
+        link(rel="stylesheet" href="../css/lib/jpages/jpagenum.css")
+        link(rel="stylesheet" href="../lib/3.15/esri/css/esri.css")
+        script(src="../config.js")
+        script(src="../lib/jquery.min.js")
+        script(src="../lib/jPages.min.js")
+        script(src="../lib/jquery.bpopup.js")
+        script(src="../lib/3.15/init.js")
+        script(src="../js/manymapcontrol.js")
+        script(src="../js/colordem.js")
+    body.demquanzidongshengcheng
+        .logo
+            div
+                img(src='../img/logo2.png')
+        .path
+            span 您当前的位置：
+            a 首页
+            span &gt
+            a 云工作台-高性能集群
+            span &gt
+            a DEM彩色晕渲
+        .bittitle
+            img(src='../img/c.png')
+            div
+                h1 DEM彩色晕渲
+                p 晕渲图是DEM地表形态表达的一种形式，它通过设置光源的高度角和方位角更形象或者更符合人类视觉的方式展示一个地区的地形。通过晕渲图，可以很好的反应地形地势的变化，有很好的立体感，方便用图者的使用。
+        .topimg
+            .imgbase
+                .topmenu
+                    button#openDem 打开DEM
+                #leftconetent
+            .imgbase
+                .topmenu
+                    button#executeAlg 执行算法
+                    .selectBmp
+                        div#select_input
+                            img(src="../img/colorTable/ct11.bmp")
+                            div#arrow
+                        ul#bmps
+                            li.bmp_list
+                                img(src="../img/colorTable/ct0.bmp")
+                            li.bmp_list
+                                img(src="../img/colorTable/ct00.bmp")
+                            li.bmp_list
+                                img(src="../img/colorTable/ct11.bmp")
+                            li.bmp_list
+                                img(src="../img/colorTable/ct12.bmp")
+                #rightcontent
+        #selectDem
+            .title
+                span 选择DEM数据
+                img(src="../img/close.png")
+            ul#tabul_select
+            .holder_select
+            #confirm 确认选择
+

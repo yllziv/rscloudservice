@@ -1,0 +1,27 @@
+.holder_dem, .holder_gfyh, .holder_gfeh, .holder_shp, .holder_zysh, .holder_select, .holder_selectDem, .holder_selectDem2 {
+  margin: 0 0 15px 0;
+  text-align: center; }
+  .holder_dem a, .holder_gfyh a, .holder_gfeh a, .holder_shp a, .holder_zysh a, .holder_select a, .holder_selectDem a, .holder_selectDem2 a {
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #333; }
+  .holder_dem a:hover, .holder_gfyh a:hover, .holder_gfeh a:hover, .holder_shp a:hover, .holder_zysh a:hover, .holder_select a:hover, .holder_selectDem a:hover, .holder_selectDem2 a:hover {
+    background-color: #222;
+    color: #fff; }
+  .holder_dem a.jp-previous, .holder_gfyh a.jp-previous, .holder_gfeh a.jp-previous, .holder_shp a.jp-previous, .holder_zysh a.jp-previous, .holder_select a.jp-previous, .holder_selectDem a.jp-previous, .holder_selectDem2 a.jp-previous {
+    margin-right: 15px; }
+  .holder_dem a.jp-next, .holder_gfyh a.jp-next, .holder_gfeh a.jp-next, .holder_shp a.jp-next, .holder_zysh a.jp-next, .holder_select a.jp-next, .holder_selectDem a.jp-next, .holder_selectDem2 a.jp-next {
+    margin-left: 15px; }
+  .holder_dem a.jp-current, .holder_dem a.jp-current:hover, .holder_gfyh a.jp-current, .holder_gfyh a.jp-current:hover, .holder_gfeh a.jp-current, .holder_gfeh a.jp-current:hover, .holder_shp a.jp-current, .holder_shp a.jp-current:hover, .holder_zysh a.jp-current, .holder_zysh a.jp-current:hover, .holder_select a.jp-current, .holder_select a.jp-current:hover, .holder_selectDem a.jp-current, .holder_selectDem a.jp-current:hover, .holder_selectDem2 a.jp-current, .holder_selectDem2 a.jp-current:hover {
+    color: #FF4242;
+    font-weight: bold; }
+  .holder_dem a.jp-disabled, .holder_dem a.jp-disabled:hover, .holder_gfyh a.jp-disabled, .holder_gfyh a.jp-disabled:hover, .holder_gfeh a.jp-disabled, .holder_gfeh a.jp-disabled:hover, .holder_shp a.jp-disabled, .holder_shp a.jp-disabled:hover, .holder_zysh a.jp-disabled, .holder_zysh a.jp-disabled:hover, .holder_select a.jp-disabled, .holder_select a.jp-disabled:hover, .holder_selectDem a.jp-disabled, .holder_selectDem a.jp-disabled:hover, .holder_selectDem2 a.jp-disabled, .holder_selectDem2 a.jp-disabled:hover {
+    color: #bbb; }
+  .holder_dem a.jp-current, .holder_dem a.jp-current:hover, .holder_dem a.jp-disabled, .holder_dem a.jp-disabled:hover, .holder_gfyh a.jp-current, .holder_gfyh a.jp-current:hover, .holder_gfyh a.jp-disabled, .holder_gfyh a.jp-disabled:hover, .holder_gfeh a.jp-current, .holder_gfeh a.jp-current:hover, .holder_gfeh a.jp-disabled, .holder_gfeh a.jp-disabled:hover, .holder_shp a.jp-current, .holder_shp a.jp-current:hover, .holder_shp a.jp-disabled, .holder_shp a.jp-disabled:hover, .holder_zysh a.jp-current, .holder_zysh a.jp-current:hover, .holder_zysh a.jp-disabled, .holder_zysh a.jp-disabled:hover, .holder_select a.jp-current, .holder_select a.jp-current:hover, .holder_select a.jp-disabled, .holder_select a.jp-disabled:hover, .holder_selectDem a.jp-current, .holder_selectDem a.jp-current:hover, .holder_selectDem a.jp-disabled, .holder_selectDem a.jp-disabled:hover, .holder_selectDem2 a.jp-current, .holder_selectDem2 a.jp-current:hover, .holder_selectDem2 a.jp-disabled, .holder_selectDem2 a.jp-disabled:hover {
+    cursor: default;
+    background: none; }
+  .holder_dem span, .holder_gfyh span, .holder_gfeh span, .holder_shp span, .holder_zysh span, .holder_select span, .holder_selectDem span, .holder_selectDem2 span {
+    margin: 0 5px; }
+
+/*# sourceMappingURL=jpagenum.css.map */

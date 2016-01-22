@@ -1,0 +1,275 @@
+<html><head>
+    <title>时空信息云平台</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/lib/jpages/style.css">
+    <!--<link rel="stylesheet" href="./css/lib/jpages/jPages.css">-->
+    <link rel="stylesheet" href="../css/lib/jpages/jpagenum.css">
+    <link rel="stylesheet" href="../lib/3.15/esri/css/esri.css"/>
+    <script src="../config.js"></script>
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/jPages.min.js"></script>
+    <script src="../lib/jquery.bpopup.js"></script>
+    <script>var dojoConfig = {parseOnLoad: true};</script>
+    <script src="../lib/3.15/init.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/mapcontrol.js"></script>
+
+</head>
+<body class="inde2_body_divs" id="o-resizable" name="aaaa">
+<!--公共头部  -->
+<div class="body-outer-container">
+    <div class="body-inner-container">
+        <!-- 页面内容开始 -->
+        <div style="background:#0e61af url(../img/banner.png) no-repeat center; width:100%;height:380px;margin-bottom:20px;text-align:center;position:relative;">
+            <div class="texttitle">
+                <div class="titleText">
+                    <span>时空信息云平台</span>
+                </div>
+                <div class="titleSubText">
+                    <span>时空信息云服务技术，可以通过提供时空数据分布式云存</span><br>
+                    <span>储、并行云处理和共享云应用服务，使测绘应用系统更强</span><br>
+                    <span>大、更高效、更便捷、更经济、更广泛！</span>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+
+
+            <ul class="nav nav-tabs mt5 index-seo" role="tablist">
+
+                <span class="font20 fl"><img src="../img/icon_1.png" class="littleimg">数据云中心 <a id="publicdataa" href="#">进入</a> </span>
+                <li role="presentation" class="" value="GF2" id="ul_zysh"><a>资源三号</a></li>
+                <li role="presentation" class="" value="ZY3"  id="ul_shp"><a>矢量数据</a></li>
+                <li role="presentation" class="active" value="ZY02C" id="ul_dem"><a>DEM数据</a></li>
+                <li role="presentation" class="" value="GF2" id="ul_gfyh"><a>高分一号</a></li>
+                <li role="presentation" class="" value="GF2" id="ul_gfeh"><a>高分二号</a></li>
+            </ul>
+            <div>
+            <div class="index3-part-newdata defaults" >
+                <ul class="index3-ul1-list" style="display:block" id="tabul_dem">
+                </ul>
+                <div class="holder_dem"></div>
+            </div>
+
+            <div class="index3-part-newdata defaults" style="display: none" >
+                <ul class="index3-ul1-list" style="display:block" id="tabul_gfyh">
+                </ul>
+                <div class="holder_gfyh"></div>
+            </div>
+
+            <div class="index3-part-newdata defaults" style="display: none" >
+                <ul class="index3-ul1-list" style="display:block" id="tabul_gfeh">
+                </ul>
+                <div class="holder_gfeh"></div>
+            </div>
+
+            <div class="index3-part-newdata defaults" style="display: none" >
+                <ul class="index3-ul1-list" style="display:block" id="tabul_shp">
+                </ul>
+                <div class="holder_shp"></div>
+            </div>
+
+            <div class="index3-part-newdata defaults" style="display: none" >
+                <ul class="index3-ul1-list" style="display:block" id="tabul_zysh">
+                </ul>
+                <div class="holder_zysh"></div>
+            </div>
+            </div>
+            <div class="mt10">
+                <p class="index3-part-title index3-part-title2">
+                    <span class="font20 fl"><img src="../img/icon_2.png" class="littleimg">云工作台 - 单机</span>
+                </p>
+            </div>
+            <div class="index3-part-workbench">
+                <ul class="index3-ul2-list">
+                    <li>
+                        <div style="width:100%; text-align:center;">
+                            <img src="../img/1.png">
+                        </div>
+                        <p class="index3-ul2-list-title">OpenRS云工作台</p>
+
+                        <p class="index3-ul2-list-content">
+                            开放遥感平台OpenRS界面友好灵活，功能专业多样，不仅支持基本的光学、SAR遥感影像处理，还支持专业的遥感应用，提供了包括大气、陆地、海洋等23种定量专题产品生产功能。</p>
+
+                        <p>
+                            <a id="instance_openRS">进入</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div style="width:100%; text-align:center;">
+                            <img src="../img/2.png">
+                        </div>
+                        <p class="index3-ul2-list-title">ArcGIS云工作台</p>
+
+                        <p class="index3-ul2-list-content">
+                            ArcGIS为用户提供一个可伸缩的，全面的GIS平台。ArcGIS整合了数据库、软件工程、人工智能、网络技术、云计算等主流的IT技术，为用户提供一套完整的、开放的企业级GIS解决方案。</p>
+
+                        <p>
+                            <a  id="instance_arcgis" href="#aaaa">进入</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div style="width:100%; text-align:center;">
+                            <img src="../img/3.png">
+                        </div>
+                        <p class="index3-ul2-list-title">ENVI云工作台</p>
+
+                        <p class="index3-ul2-list-content">
+                            ENVI是由遥感领域的科学家采用IDL开发的一套功能强大的、完整的遥感图像处理软件。ENVI架构非常灵活，提供一个功能全面的函数库，可以满足用户的个性化需求。</p>
+
+                        <p>
+                            <a id="instance_envi">进入</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div style="width:100%; text-align:center;">
+                            <img src="../img/4.png">
+                        </div>
+                        <p class="index3-ul2-list-title">ERDAS云工作台</p>
+
+                        <p class="index3-ul2-list-content">
+                            ERDAS是一款遥感图像处理系统软件，服务于不同层次用户的模型开发工具以及高度的遥感图像处理和地理信息系统集成功能，为用户提供了内容丰富而功能强大的图像处理工具。</p>
+
+                        <p>
+                            <a id="instance_erdas">进入</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div style="width:100%; text-align:center;">
+                            <img src="../img/5.png">
+                        </div>
+                        <p class="index3-ul2-list-title">Office云工作台</p>
+
+                        <p class="index3-ul2-list-content">
+                            Microsoft Office是微软公司开发的一套基于 Windows 操作系统的办公软件套装。常用组件有 Word、Excel、Powerpoint等，它与办公室应用程序一样，它包括联合的服务器和基于互联网的服务。</p>
+                        <p>
+                            <a id="instance_office">进入</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <!-- 集市首页 图片轮播star -->
+            <div class="mt10">
+                <p class="index3-part-title index3-part-title2">
+                    <span class="font20 fl"><img src="../img/icon_3.png" class="littleimg">云工作台 - 集群</span>
+                </p>
+            </div>
+            <div class="index3-part-workbench">
+                <ul class="index3-ul2-list">
+                    <li style="width:25%">
+                        <img src="../img/a.png">
+
+                        <p class="index3-ul2-list-title">实时镶嵌能力</p>
+
+                        <p class="index3-ul2-list-content">
+                            高性能集群云工作台支持对若干幅图像的几何镶嵌、色调调整、去重叠等实时处理，镶嵌到一幅大的背景影像中，实现大规模影像在快速拼接、镶嵌成图等环节的高效处理。</p>
+
+                        <p>
+                            <a href="实时镶嵌.html" target=_blank>进入</a>
+                        </p>
+                    </li>
+                    <li style="width:25%">
+                        <img src="../img/b.png">
+
+                        <p class="index3-ul2-list-title">DEM全自动生成</p>
+
+                        <p class="index3-ul2-list-content">
+                            相比较人工生成DEM的操作繁琐、耗时长、效率低，DEM的全自动化生成极大地提高了生产效率，适合大规模DEM快速、批量处理并利用其高性能集群计算环境进行快速的输出。</p>
+
+                        <p>
+                            <a href="DEM全自动生成.html" target=_blank>进入</a>
+                        </p>
+                    </li>
+                    <li style="width:25%">
+                        <img src="../img/c.png">
+
+                        <p class="index3-ul2-list-title">遥感影像并行纠正</p>
+
+                        <p class="index3-ul2-list-content">
+                            支持并行处理，解决大数据量的快速计算。并行处理相对于单机运行，采用分布式的方式处理，通过批量提交任务，进行多任务的同时处理，可以缩减大量时间，提高遥感影像的纠正效率。</p>
+
+                        <p>
+                            <a href="遥感影像并行纠正.html" target=_blank>进入</a>
+                        </p>
+                    </li>
+
+                    <li style="width:25%">
+                        <img src="../img/d.png">
+
+                        <p class="index3-ul2-list-title">DEM彩色晕渲</p>
+
+                        <p class="index3-ul2-list-content">
+                            晕渲图是DEM地表形态表达的一种形式，它通过设置光源的高度角和方位角更形象或者更符合人类视觉的方式展示一个地区的地形。通过晕渲图，可以很好的反应地形地势的变化，有很好的立体感，方便用图者的使用。
+
+                        </p><p>
+                        <a href="DEM彩色晕渲.html" target=_blank>进入</a>
+                    </p>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="mt20">
+                <p class="index3-part-title index3-part-title1">
+                    <span class="font20 fl"><img src="../img/icon_4.png" class="littleimg">行业服务</span><a href="javascript:;" class="fr font12 noneBorder" id="#noHover" style="border:0"><span class="hfPrev">&lt;</span><span class="hfNext hoverActive" style="color: rgb(51, 51, 51);">&gt;</span></a>
+                </p>
+            </div>
+            <!-- 行业服务最多9个图 -->
+            <div class="index_hyfw">
+                <ul>
+                    <li class="first_li"><a href="#"><img src="../img/fw_1.png">
+
+                        <div></div>
+                        <p>2012-2015年松山湖新增建设用地专题信息产品</p></a></li>
+                    <li><a href="#"><img src="../img/fw_2.png">
+
+                        <div></div>
+                        <p>深圳市2015年土地利用现状监测专题信息产品</p></a></li>
+                    <li><a href="#"><img src="../img/fw_3.png">
+
+                        <div></div>
+                        <p>2013年至2015年东莞市土地利用变化监测专题信息产品</p></a></li>
+                    <li><a href="#"><img src="http://www.rscloudmart.com/image//appWeb/upload/69fdc25d-964b-447c-9392-3f3bca676203.jpg">
+
+                        <div></div>
+                        <p> 2014年至2015年深圳市土地利用变化监测专题信息产品</p></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mapfloatlayer">
+    <div id="topfloatlayer">
+        <span>浏览影像</span>
+        <img src="../img/close.png"/>
+        <img src="../img/zuidahua.png"/>
+    </div>
+    <div id="map"></div>
+    <div id="rightContent">
+        <div id="imgThumbnailTitle" >sjfksjdfjskldjflsdjflsdjflsdjfsldfjsdlk</div>
+        <img id="imgThumbnail" src="">
+
+        <h3>介绍文字：</h3>
+
+        <p>成像时间<span>   2015-12-17 11:56:40（北京时间）</span></p>
+
+        <p>云量<span>   0% </span></p>
+
+        <p>面积<span>  232423.43平方公里</span></p>
+
+        <p>覆盖地区<span>   2015-12-17 11:56:40（北京时间）</span></p>
+
+        <p>成像时间<span>   2015-12-17 11:56:40（北京时间）</span></p>
+
+        <p>成像时间<span>   2015-12-17 11:56:40（北京时间）</span></p>
+
+        <p>成像时间<span>   2015-12-17 11:56:40（北京时间）</span></p>
+    </div>
+</div>
+
+
+
+</body></html>

@@ -1,0 +1,79 @@
+html
+    head
+        meta(charset='utf-8')
+        link(rel='stylesheet' href='../css/page.css')
+        link(rel="stylesheet" href="../css/lib/jpages/style.css")
+        link(rel="stylesheet" href="../css/lib/jpages/jpagenum.css")
+        link(rel="stylesheet" href="../lib/3.15/esri/css/esri.css")
+        link(rel="stylesheet" href="../css/taskBar/canvas.css")
+        link(rel="stylesheet" href="../css/taskBar/taskBar.css")
+        script(src="../config.js")
+        script(src="../lib/jquery.min.js")
+        script(src="../lib/jPages.min.js")
+        script(src="../lib/jquery.bpopup.js")
+        script(src="../lib/3.15/init.js")
+        script(src="../js/manymapcontrol.js")
+        script(src="../js/correct.js")
+    body.demquanzidongshengcheng
+        .logo
+            div
+                img(src='../img/logo2.png')
+        .path
+            span 您当前的位置：
+            a 首页
+            span &gt
+            a 云工作台-高性能集群
+            span &gt
+            a 遥感影像并行纠正
+        .bittitle
+            img(src='../img/c.png')
+            div
+                h1 遥感影像并行纠正
+                p 支持并行处理，解决大数据量的快速计算。并行处理相对于单机运行，采用分布式的方式处理，通过批量提交任务，进行多任务的同时处理，可以缩减大量时间，提高遥感影像的纠正效率。
+        .topimg
+            .imgbase
+                .topmenu
+                    button#openImg 打开影像
+                #leftcontent
+            .imgbase
+                .topmenu
+                    button#openDem 打开DEM
+                #rightcontent
+         .bottomimg
+             .topmenu
+                 button#executeAlg 执行纠正
+                 //select
+                 //   option 正射纠正
+             #bottomcontent
+        #selectDem
+            .title
+                span 选择DEM数据
+                img(src="../img/close.png")
+            ul#tabul_selectDem
+            .holder_selectDem
+            #confirmDem 确认选择
+        #selectDem2
+            .title
+                span 选择影像数据
+                img(src="../img/close.png")
+            ul#tabul_selectDem2
+            .holder_selectDem2
+            #confirmDem2 确认选择
+        .taskContainer
+            .task
+                h3 任务进度
+                b
+                    p#processText(style='width:80% ', data-value='80')
+                progress#processBar.html5(max='100', value='80')
+                    .progress-bar
+                        span(style='width: 80%') 80%
+                .cancelTask.right
+                    b 取消任务
+                .taskButton
+                    .arrow.right
+                    b 查看任务
+            .taskDetail
+                hr
+                h3(style='margin:20px auto;') 详细信息
+                canvas#subTask(width='650px', height='360px') 您的浏览器不支持canvas！
+                br

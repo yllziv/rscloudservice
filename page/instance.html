@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <script src="../lib/jquery.min.js"></script>
+    <title>Title</title>
+</head>
+<body style="background-color:#313131; ">
+<div id="iframe" style="text-align: center; z-index:999">
+
+</div>
+<script>
+    var url = window.location.search.slice(1,window.location.search.length);
+    $('#iframe').html('<iframe align=middle marginwidth=0 marginheight=0 src="'+url+'" frameborder=no scrolling=no width=1027 height=797></iframe>')
+</script>
+</body>
+</html>

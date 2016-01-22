@@ -1,0 +1,141 @@
+/*------------------------------------*\
+    #COLORS
+\*------------------------------------*/
+/*------------------------------------*\
+    #body
+\*------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  background: #F4F4F4; }
+
+/*------------------------------------*\
+    #application
+\*------------------------------------*/
+.application {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft Yahei", Arial;
+  font-size: 16px; }
+  .application ul, .application li {
+    text-decoration: none;
+    list-style: none; }
+
+/*------------------------------------*\
+    #head
+\*------------------------------------*/
+.application_head {
+  width: 100%;
+  height: 300px;
+  background: #5881BF; }
+  .application_head .application_head_content {
+    width: 1200px;
+    margin: auto;
+    height: 300px;
+    position: relative; }
+    .application_head .application_head_content .application_head_desc {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: 60px; }
+      .application_head .application_head_content .application_head_desc h1 {
+        font-size: 50px;
+        color: #fff;
+        margin: 0 0 40px 0;
+        font-weight: 100; }
+      .application_head .application_head_content .application_head_desc p {
+        font-size: 14px;
+        line-height: 15px;
+        color: #fff; }
+
+/*------------------------------------*\
+    #nav
+\*------------------------------------*/
+.application_nav {
+  margin: auto;
+  width: 1200px;
+  height: 55px;
+  background: #fff;
+  position: relative; }
+  .application_nav .ul_nav {
+    margin: 30px 0;
+    height: 55px;
+    padding: 0; }
+    .application_nav .ul_nav .tabs {
+      float: left;
+      height: 55px;
+      line-height: 55px;
+      padding: 0 20px; }
+    .application_nav .ul_nav li.on {
+      background: #379BE9;
+      color: white; }
+  .application_nav .search_nav {
+    height: 30px;
+    width: 190px; }
+    .application_nav .search_nav .input_search {
+      display: inline-block;
+      position: absolute;
+      right: 70px;
+      top: 10px;
+      width: 150px;
+      height: 35px;
+      background: #F1F1F1;
+      padding: 7px;
+      border: none; }
+    .application_nav .search_nav .btn_search {
+      position: absolute;
+      right: 30px;
+      top: 10px;
+      width: 40px;
+      height: 35px;
+      background: #73B304 url(../img/iconfont-search.png) no-repeat 10px 7px; }
+
+/*------------------------------------*\
+    #content
+\*------------------------------------*/
+.application_content {
+  width: 1200px;
+  margin: 30px auto; }
+  .application_content .content_list {
+    width: 380px;
+    height: 180px;
+    background: #fff;
+    position: relative;
+    float: left;
+    margin: 0 30px 30px 0; }
+    .application_content .content_list img {
+      margin: 55px 20px; }
+    .application_content .content_list .content_list_title {
+      position: absolute;
+      left: 120px;
+      top: 10px; }
+      .application_content .content_list .content_list_title .list_title {
+        font-size: 20px;
+        margin: 10px 0; }
+      .application_content .content_list .content_list_title .list_desc {
+        margin-top: 15px;
+        font-size: 14px;
+        width: 240px; }
+    .application_content .content_list .pics {
+      position: absolute;
+      bottom: 15px;
+      right: 20; }
+    .application_content .content_list .rateStar {
+      display: inline-block;
+      height: 11px;
+      line-height: 12px;
+      width: 100px;
+      background-image: url("../img/stars.png");
+      background-position: 0 0px;
+      background-repeat: no-repeat;
+      margin-top: 20px; }
+    .application_content .content_list .download {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      line-height: 16px;
+      background: #DCDCDC url(../img/iconfont-download.png) no-repeat 0 0; }
+  .application_content .content_list:nth-child(3n+0) {
+    margin: 0 0 30px 0; }
+
+/*# sourceMappingURL=appcenter.css.map */

@@ -1,0 +1,49 @@
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../css/page.css"/>
+    <link rel="stylesheet" href="../css/lib/jpages/style.css"/>
+    <link rel="stylesheet" href="../css/lib/jpages/jpagenum.css"/>
+    <link rel="stylesheet" href="../lib/3.15/esri/css/esri.css"/>
+    <script src="../config.js"></script>
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/jPages.min.js"></script>
+    <script src="../lib/jquery.bpopup.js"></script>
+    <script src="../lib/3.15/init.js"></script>
+    <script src="../js/mapcontrol.js"></script>
+    <script src="../js/inlay.js"></script>
+  </head>
+  <body class="shishirangqian">
+    <div class="logo">
+      <div><img src="../img/logo2.png"/></div>
+    </div>
+    <div class="path"><span>您当前的位置：</span><a>首页</a><span>&gt</span><a>云工作台-高性能集群</a><span>&gt</span><a>实时镶嵌能力</a></div>
+    <div class="bittitle"><img src="../img/a.png"/>
+      <div>
+        <h1>实时镶嵌能力</h1>
+        <p>高性能集群云工作台支持对若干幅图像的几何镶嵌、色调调整、去重叠等实时处理，镶嵌到一幅大的背景影像中，实现大规模影像在快速拼接、镶嵌成图等环节的高效处理。</p>
+      </div>
+    </div>
+    <div class="imgbase">
+      <div class="topmenu">
+        <div>影像库</div>
+        <button id="executeAlg">执行镶嵌</button>
+      </div>
+      <div class="imgcontent">
+        <div id="selectImg">
+          <ul id="tabul_select"></ul>
+          <div class="holder_select"></div>
+        </div>
+      </div>
+      <div class="flippage"></div>
+    </div>
+    <div class="result">
+      <div class="resultmenu">
+        <div>镶嵌结果</div>
+      </div>
+      <div id="resultmap"></div>
+    </div>
+    <!--#map(style="position:absolute;width:500px;height:500px;top:1px;left:1px")-->
+  </body>
+</html>

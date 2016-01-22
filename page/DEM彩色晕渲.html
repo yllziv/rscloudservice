@@ -1,0 +1,60 @@
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../css/page.css"/>
+    <link rel="stylesheet" href="../css/lib/jpages/style.css"/>
+    <link rel="stylesheet" href="../css/lib/jpages/jpagenum.css"/>
+    <link rel="stylesheet" href="../lib/3.15/esri/css/esri.css"/>
+    <script src="../config.js"></script>
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/jPages.min.js"></script>
+    <script src="../lib/jquery.bpopup.js"></script>
+    <script src="../lib/3.15/init.js"></script>
+    <script src="../js/manymapcontrol.js"></script>
+    <script src="../js/colordem.js"></script>
+  </head>
+  <body class="demquanzidongshengcheng">
+    <div class="logo">
+      <div><img src="../img/logo2.png"/></div>
+    </div>
+    <div class="path"><span>您当前的位置：</span><a>首页</a><span>&gt</span><a>云工作台-高性能集群</a><span>&gt</span><a>DEM彩色晕渲</a></div>
+    <div class="bittitle"><img src="../img/c.png"/>
+      <div>
+        <h1>DEM彩色晕渲</h1>
+        <p>晕渲图是DEM地表形态表达的一种形式，它通过设置光源的高度角和方位角更形象或者更符合人类视觉的方式展示一个地区的地形。通过晕渲图，可以很好的反应地形地势的变化，有很好的立体感，方便用图者的使用。</p>
+      </div>
+    </div>
+    <div class="topimg">
+      <div class="imgbase">
+        <div class="topmenu">
+          <button id="openDem">打开DEM</button>
+        </div>
+        <div id="leftconetent"></div>
+      </div>
+      <div class="imgbase">
+        <div class="topmenu">
+          <button id="executeAlg">执行算法</button>
+          <div class="selectBmp">
+            <div id="select_input"><img src="../img/colorTable/ct11.bmp"/>
+              <div id="arrow"></div>
+            </div>
+            <ul id="bmps">
+              <li class="bmp_list"><img src="../img/colorTable/ct0.bmp"/></li>
+              <li class="bmp_list"><img src="../img/colorTable/ct00.bmp"/></li>
+              <li class="bmp_list"><img src="../img/colorTable/ct11.bmp"/></li>
+              <li class="bmp_list"><img src="../img/colorTable/ct12.bmp"/></li>
+            </ul>
+          </div>
+        </div>
+        <div id="rightcontent"></div>
+      </div>
+    </div>
+    <div id="selectDem">
+      <div class="title"><span>选择DEM数据</span><img src="../img/close.png"/></div>
+      <ul id="tabul_select"></ul>
+      <div class="holder_select"></div>
+      <div id="confirm">确认选择</div>
+    </div>
+  </body>
+</html>

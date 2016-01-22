@@ -1,0 +1,26 @@
+html
+    head
+        meta(charset='utf-8')
+        link(rel='stylesheet' href='../css/page.css')
+        script(src='../config.js')
+        script(src='../lib/jquery.min.js')
+        script(src="../js/head.js")
+    body
+        .logo
+            div
+                .logoimg
+                    img(src='../img/logo2.png')
+                .people
+                    span 您好！欢迎来到遥感云平台
+                    span.login 请登录
+                    span.registe 注册
+        .navbar
+            ul
+                li 首页
+                li.cantClick 数据中心
+                li.cantClick 计算中心
+                li 应用中心
+                li.cantClick 云工作台
+                li.cantClick 个人中心
+                li 地图产品
+        iframe.iframePage(src="./home.html" allowtransparency="true" style="background-color=transparent" title="test" frameborder="0" width="100%" height="100%" scrolling="no")

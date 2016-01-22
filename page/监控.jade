@@ -1,0 +1,111 @@
+html
+    head
+        meta(charset='utf-8')
+        link(rel='stylesheet' href='../css/page.css')
+        script(src="../config.js")
+        script(src="../js/d3.min.js")
+        script(src="../js/sort.js")
+    body.monitoring
+        .logo
+            div
+                img(src='../img/logo2.png')
+        .path
+            span 您当前的位置：
+            a 首页
+            span &gt
+            a 云工作台-高性能集群
+            span &gt
+            a 集群监控
+        .imgbase
+            .menu
+                div.monitorTitle 计算机组
+            .contentComp
+                ul.computers
+                    li.onecomputer
+                        img(src="../img/computer.jpg" width="135px")
+                        p LENOVO-2VIKG49U
+                    li.onecomputer
+                        img(src="../img/computer.jpg" width="135px")
+                        p WR680-4
+                    li.onecomputer
+                        img(src="../img/computer.jpg" width="135px")
+                        p WR680-5
+                    li.onecomputer
+                        img(src="../img/computer.jpg" width="135px")
+                        p WR680-6
+                    li.onecomputer
+                        img(src="../img/computer.jpg" width="135px")
+                        p WR680-7
+        .imgbase
+            .menu
+                div.monitorTitle 计算机信息
+            .contentInfo
+                div.info
+                    p 机器名：
+                        span LENOVO-2VIKG49U
+                    p 机器核数：
+                        span 2
+                    p 机器内存总数：：
+                        span 8.3GB
+                    p 磁盘总容量：
+                        span 65/98GB
+                div.infopie
+                    div#pie1.pie
+                    div.infodesc
+                        p.up 内存使用
+                        p.down 26%
+                div.infopie
+                    div#pie2.pie
+                    div.infodesc
+                        p.up CPU使用
+                        p.down 20%
+                div.infopie
+                    div#pie3.pie
+                    div.infodesc
+                        p.up 硬盘使用
+                        p.down 67%
+        .imgbase
+            .menu
+                div.monitorTitle 计算机进程信息
+            .contentInfo
+                div.processing
+                    p 进程
+                    table(id="tb1" border="0" style="border:solid 1px #DDDDDD;width:450px;" cellpadding="0" cellspacing="0")
+                        tr#titleTable
+                            th 映像名称
+                            th 用户名
+                            th CPU
+                            th 描述
+
+                div.proContent
+                    .upContent
+                        div
+                            p 工作类型：
+                                span 3
+                            p Job状态：
+                                span 1
+                            p 用户名：
+                                span 张三
+                            p 算法ID
+                                span
+                        div
+                            p Job类型：
+                                span
+                            p Job进度：
+                                span
+                            p 是否繁忙：
+                                span
+                    .downContent
+                        div
+                            span 占用CPU：
+                            span 20%
+                            span.colorBar.colorBarCPU
+                            span.grayBar
+                        div
+                            span 占用内存：
+                            span 45.5%
+                            span.colorBar.colorBarMemory
+                            span.grayBar
+        script(src="../js/drawPie.js")
+
+

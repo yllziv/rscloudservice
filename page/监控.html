@@ -1,0 +1,112 @@
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../css/page.css"/>
+    <script src="../config.js"></script>
+    <script src="../js/d3.min.js"></script>
+    <script src="../js/sort.js"></script>
+  </head>
+  <body class="monitoring">
+    <div class="logo">
+      <div><img src="../img/logo2.png"/></div>
+    </div>
+    <div class="path"><span>您当前的位置：</span><a>首页</a><span>&gt</span><a>云工作台-高性能集群</a><span>&gt</span><a>集群监控</a></div>
+    <div class="imgbase">
+      <div class="menu">
+        <div class="monitorTitle">计算机组</div>
+      </div>
+      <div class="contentComp">
+        <ul class="computers">
+          <li class="onecomputer"><img src="../img/computer.jpg" width="135px"/>
+            <p>LENOVO-2VIKG49U</p>
+          </li>
+          <li class="onecomputer"><img src="../img/computer.jpg" width="135px"/>
+            <p>WR680-4</p>
+          </li>
+          <li class="onecomputer"><img src="../img/computer.jpg" width="135px"/>
+            <p>WR680-5</p>
+          </li>
+          <li class="onecomputer"><img src="../img/computer.jpg" width="135px"/>
+            <p>WR680-6</p>
+          </li>
+          <li class="onecomputer"><img src="../img/computer.jpg" width="135px"/>
+            <p>WR680-7</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="imgbase">
+      <div class="menu">
+        <div class="monitorTitle">计算机信息</div>
+      </div>
+      <div class="contentInfo">
+        <div class="info">
+          <p>机器名：<span>LENOVO-2VIKG49U</span></p>
+          <p>机器核数：<span>2</span></p>
+          <p>机器内存总数：：<span>8.3GB</span></p>
+          <p>磁盘总容量：<span>65/98GB</span></p>
+        </div>
+        <div class="infopie">
+          <div id="pie1" class="pie"></div>
+          <div class="infodesc">
+            <p class="up">内存使用</p>
+            <p class="down">26%</p>
+          </div>
+        </div>
+        <div class="infopie">
+          <div id="pie2" class="pie"></div>
+          <div class="infodesc">
+            <p class="up">CPU使用</p>
+            <p class="down">20%</p>
+          </div>
+        </div>
+        <div class="infopie">
+          <div id="pie3" class="pie"></div>
+          <div class="infodesc">
+            <p class="up">硬盘使用</p>
+            <p class="down">67%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="imgbase">
+      <div class="menu">
+        <div class="monitorTitle">计算机进程信息</div>
+      </div>
+      <div class="contentInfo">
+        <div class="processing">
+          <p>进程</p>
+          <table id="tb1" border="0" style="border:solid 1px #DDDDDD;width:450px;" cellpadding="0" cellspacing="0">
+            <tr id="titleTable">
+              <th>映像名称</th>
+              <th>用户名</th>
+              <th>CPU</th>
+              <th>描述</th>
+            </tr>
+          </table>
+        </div>
+        <div class="proContent">
+          <div class="upContent">
+            <div>
+              <p>工作类型：<span>3</span></p>
+              <p>Job状态：<span>1</span></p>
+              <p>用户名：<span>张三</span></p>
+              <p>算法ID<span></span></p>
+            </div>
+            <div>
+              <p>Job类型：<span></span></p>
+              <p>Job进度：<span></span></p>
+              <p>是否繁忙：<span></span></p>
+            </div>
+          </div>
+          <div class="downContent">
+            <div><span>占用CPU：</span><span>20%</span><span class="colorBar colorBarCPU"></span><span class="grayBar"></span></div>
+            <div><span>占用内存：</span><span>45.5%</span><span class="colorBar colorBarMemory"></span><span class="grayBar"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/drawPie.js"></script>
+  </body>
+</html>

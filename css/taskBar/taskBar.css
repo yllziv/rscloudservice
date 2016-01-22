@@ -1,0 +1,47 @@
+
+.taskContainer{display:none;background: #00a2e8;width:652px;height:auto;border:1px #00a2e8;margin:auto;}
+.task{background:#FFF;width:650px;height:auto;font-size:80%;border:0px #00a2e8 solid;padding:15px;margin-bottom:0px;-moz-border-radius: 0px,3px;-webkit-border-radius:0px, 3px}
+.taskDetail{overflow:auto;overflow-x:hidden;display:none;background:#FFF;width:650px;height:auto;font-size:80%;border:0px #00a2e8 solid;margin:0px auto;padding:15px;-moz-border-radius: 3px 0px;-webkit-border-radius: 3px,0px}
+
+
+.taskButton{
+    cursor: pointer;
+    padding: 0.75em;
+    width:120px;
+    background: #00a2e8;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px;
+    margin-left: 0px;
+    color: #ffffff;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.arrow{
+    border: 9px solid #00a2e8;
+    border-left-color: #ffffff;
+    width: 0;
+    height: 0;
+    margin:auto;
+    transform: rotate(0deg);
+}
+
+.cancelTask{
+    cursor: pointer;
+    padding: 0.75em;
+    width:120px;
+    background: #00a2e8;
+    font-size: 1.2em;
+    text-align: center;
+    margin:  10px;
+    margin-left: 0px;
+    color: #ffffff;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+
+.left {float:left}
+.right{float:right}
+.m10{margin: 10px}

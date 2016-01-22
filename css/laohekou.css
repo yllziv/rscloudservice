@@ -1,0 +1,104 @@
+body {
+  background: #f3f4f4; }
+
+.main-content {
+  width: 1200px;
+  font-family: "Microsoft Yahei", Arial;
+  font-size: 16px;
+  margin: auto; }
+
+.topSelling {
+  margin-top: 30px;
+  background: #fff;
+  border: 1px solid #ccc; }
+  .topSelling .topSellingImg {
+    width: 1200px;
+    height: 1000px;
+    background-color: #fff;
+    border: 1px solid #000; }
+  .topSelling .topSellingInfo {
+    background: #fff url("../img/topSellTitle.png") no-repeat;
+    background-position: 350px 10px;
+    width: 1200px;
+    height: 160px;
+    margin: 0; }
+    .topSelling .topSellingInfo .topSellingTitle {
+      text-align: center;
+      font-size: 22px;
+      line-height: 90px;
+      color: white;
+      margin-top: 10px; }
+      .topSelling .topSellingInfo .topSellingTitle span {
+        color: #000;
+        line-height: 30px;
+        font-size: 17px;
+        margin-left: 500px; }
+    .topSelling .topSellingInfo .topSellingDetail {
+      margin: 70px auto auto 30px; }
+      .topSelling .topSellingInfo .topSellingDetail ul, .topSelling .topSellingInfo .topSellingDetail li {
+        text-decoration: none;
+        list-style: none; }
+      .topSelling .topSellingInfo .topSellingDetail li {
+        font-size: 18px;
+        margin-bottom: 10px; }
+
+.subContent .subTitle {
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px; }
+.subContent .producting ul, .subContent .producting li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+.subContent .producting ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+.subContent .producting .imgProduct {
+  position: relative;
+  width: 385px;
+  cursor: pointer; }
+  .subContent .producting .imgProduct img {
+    position: absolute;
+    width: 385px;
+    height: 275px; }
+  .subContent .producting .imgProduct .maskLayer {
+    opacity: 0;
+    border: 5px solid #5bacea;
+    margin: 0 auto;
+    width: 375px;
+    height: 265px;
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    position: absolute;
+    top: 0;
+    left: 0px; }
+  .subContent .producting .imgProduct .lookDetail {
+    opacity: 0;
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    top: 100px; }
+    .subContent .producting .imgProduct .lookDetail .lookDetailTitle {
+      color: #fff;
+      font-size: 18px;
+      text-align: left; }
+    .subContent .producting .imgProduct .lookDetail .bt {
+      display: block;
+      padding: 5px;
+      background: #379BE9;
+      width: 65px;
+      height: 20px;
+      color: #fff;
+      left: 245px;
+      position: absolute;
+      top: 50px; }
+    .subContent .producting .imgProduct .lookDetail em {
+      position: absolute;
+      top: 30px;
+      border-bottom: 4px solid #00c6ff;
+      display: block;
+      height: 2px;
+      width: 60px; }
+
+/*# sourceMappingURL=laohekou.css.map */

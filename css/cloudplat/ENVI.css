@@ -1,0 +1,179 @@
+/* 
+* @Author: Admin
+* @Date:   2016-01-17 16:29:45
+* @Last Modified by:   Admin
+* @Last Modified time: 2016-01-17 18:05:01
+*/
+
+.OpenRS-two{
+    position:relative;
+}
+.intoCloudWork{
+    position:absolute;
+    top:25px;
+    left:230px;
+    width:100px;
+    height:40px;
+    color:#fff;
+    background-color: #5595ef;
+    float:left;
+    font-size:20px;
+    line-height:40px;
+    text-align: center;
+    cursor: pointer;
+}
+.intoCloudWork:hover{
+    background-color: #0f6fb8;
+}
+
+
+ul{
+		list-style: none;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	    /*.......logo开始.......*/
+	.daohang{width:1280px;
+	         height: 80px;
+	         padding-left: 40px;
+	         border-bottom: 2px solid #ccc;
+	        /* background: #f40;*/
+	  }
+	 .daohang .logo{
+	 	width: 250px;
+	 	height:80px;
+	 	/*background:#fff;*/
+        text-align: center;
+        font-size:16px;
+        line-height:80px;
+    }
+
+    .daohang .logo a{
+    	text-decoration: none;
+
+    }
+
+	   /*.......logo结束.......*/
+
+       /*.......小导航开始.......*/
+	.act{
+		width: 1200px;
+	    height: auto; 
+	    /*background: #999;*/
+	    margin:0 auto;
+	}
+
+	.cut{
+		height:40px; 
+        border-bottom: 1px solid #000;
+		}
+	.cut ul li{
+		float: left;
+		line-height: 40px;
+		margin-right: 5px;
+		font-size: 12px;
+		font-family:"微软雅黑"；
+	}
+	.cut .cut-in{
+		color:#ccc;
+	}
+	/*.......小导航结束.......*/
+	/*.......OpenRS开始.......*/
+	.OpenRS{
+		height:200px;
+		}
+	.OpenRS .OpenRS-one{
+		width:130px;
+		height:130px;
+		float:left;
+		margin-right:20px;
+		background:url(../../img/3.png);
+		margin-top:35px;
+	}
+	.OpenRS .OpenRS-two{
+		float:left;
+		padding-top:20px;
+		}
+	.OpenRS .OpenRS-two{
+      line-height: 50px;
+	}
+	.OpenRS .OpenRS-four{
+		line-height: 30px;
+		font-family:"微软雅黑"；
+	}
+	/*.......OpenRS结束.......*/
+	/*.......详情开始.......*/
+	.xqing{
+		height: 60px;
+	    border-bottom: 1px solid #000;
+		}
+	.xqing .xqing-in{
+		width:150px;
+        line-height:56px;
+		font-size: 24px;
+		font-family: "微软雅黑";
+		text-align: center;
+	    display: block;
+	    border-bottom: 4px solid blue;
+	}
+   /*.......详情结束.......*/
+   /*.......软件功能开始.......*/
+    .gneng{
+    	height: 160px;
+    	padding-top:30px;
+    	font-family: "微软雅黑"
+    }
+    .gneng .gneng-one{
+    	font-size: 20px;
+    	line-height: 40px;
+    	color:blue;
+    }
+    .gneng .gneng-two{
+    line-height: 40px;
+    }
+    /*.......软件功能结束.......*/
+      /*.......软件特点开始.......*/
+    .tedian{
+    	height: 350px;
+    	padding-top:30px;
+    	font-family: "微软雅黑";
+    	}
+   .tedian .tedian-one{
+   	    font-size: 20px;
+    	color:blue;
+    }
+   .tedian .tedian-two{
+   	line-height: 40px;
+  	 }
+ /*.......软件特点结束.......*/
+  /*.......应用领域开始.......*/
+    .gneng{
+    	height: 160px;
+    	padding-top:30px;
+    	font-family: "微软雅黑"
+    }
+    .gneng .gneng-one{
+    	font-size: 20px;
+    	line-height: 40px;
+    	color:blue;
+    }
+    .gneng .gneng-two{
+    line-height: 40px;
+    }
+    /*.......应用领域结束.......*/
+     /*.......适用系统开始.......*/
+  .xitong{
+  	height: 310px;
+  	padding-top:30px;
+    font-family: "微软雅黑";
+   }
+  .xitong .xitong-one{
+  	font-size: 20px;
+    color:blue;
+  }
+  .xitong .xitong-two{
+    line-height: 40px;
+  }
+  /*.......适用系统结束.......*/

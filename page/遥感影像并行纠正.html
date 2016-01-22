@@ -1,0 +1,83 @@
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../css/page.css"/>
+    <link rel="stylesheet" href="../css/lib/jpages/style.css"/>
+    <link rel="stylesheet" href="../css/lib/jpages/jpagenum.css"/>
+    <link rel="stylesheet" href="../lib/3.15/esri/css/esri.css"/>
+    <link rel="stylesheet" href="../css/taskBar/canvas.css"/>
+    <link rel="stylesheet" href="../css/taskBar/taskBar.css"/>
+    <script src="../config.js"></script>
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/jPages.min.js"></script>
+    <script src="../lib/jquery.bpopup.js"></script>
+    <script src="../lib/3.15/init.js"></script>
+    <script src="../js/manymapcontrol.js"></script>
+    <script src="../js/correct.js"></script>
+  </head>
+  <body class="demquanzidongshengcheng">
+    <div class="logo">
+      <div><img src="../img/logo2.png"/></div>
+    </div>
+    <div class="path"><span>您当前的位置：</span><a>首页</a><span>&gt</span><a>云工作台-高性能集群</a><span>&gt</span><a>遥感影像并行纠正</a></div>
+    <div class="bittitle"><img src="../img/c.png"/>
+      <div>
+        <h1>遥感影像并行纠正</h1>
+        <p>支持并行处理，解决大数据量的快速计算。并行处理相对于单机运行，采用分布式的方式处理，通过批量提交任务，进行多任务的同时处理，可以缩减大量时间，提高遥感影像的纠正效率。</p>
+      </div>
+    </div>
+    <div class="topimg">
+      <div class="imgbase">
+        <div class="topmenu">
+          <button id="openImg">打开影像</button>
+        </div>
+        <div id="leftcontent"></div>
+      </div>
+      <div class="imgbase">
+        <div class="topmenu">
+          <button id="openDem">打开DEM</button>
+        </div>
+        <div id="rightcontent"></div>
+      </div>
+    </div>
+    <div class="bottomimg">
+      <div class="topmenu">
+        <button id="executeAlg">执行纠正</button>
+        <!--select-->
+        <!--   option 正射纠正-->
+      </div>
+      <div id="bottomcontent"></div>
+    </div>
+    <div id="selectDem">
+      <div class="title"><span>选择DEM数据</span><img src="../img/close.png"/></div>
+      <ul id="tabul_selectDem"></ul>
+      <div class="holder_selectDem"></div>
+      <div id="confirmDem">确认选择</div>
+    </div>
+    <div id="selectDem2">
+      <div class="title"><span>选择影像数据</span><img src="../img/close.png"/></div>
+      <ul id="tabul_selectDem2"></ul>
+      <div class="holder_selectDem2"></div>
+      <div id="confirmDem2">确认选择</div>
+    </div>
+    <div class="taskContainer">
+      <div class="task">
+        <h3>任务进度</h3><b>
+          <p id="processText" style="width:80% " data-value="80"></p></b>
+        <progress id="processBar" max="100" value="80" class="html5">
+          <div class="progress-bar"><span style="width: 80%">80%</span></div>
+        </progress>
+        <div class="cancelTask right"><b>取消任务</b></div>
+        <div class="taskButton">
+          <div class="arrow right"></div><b>查看任务</b>
+        </div>
+      </div>
+      <div class="taskDetail">
+        <hr/>
+        <h3 style="margin:20px auto;">详细信息</h3>
+        <canvas id="subTask" width="650px" height="360px">您的浏览器不支持canvas！</canvas><br/>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+html
+    head
+        meta(charset='utf-8')
+        link(rel='stylesheet' href='../css/page.css')
+        link(rel="stylesheet" href="../css/lib/jpages/style.css")
+        link(rel="stylesheet" href="../css/lib/jpages/jpagenum.css")
+        link(rel="stylesheet" href="../lib/3.15/esri/css/esri.css")
+        link(rel="stylesheet" href="../css/taskBar/canvas.css")
+        link(rel="stylesheet" href="../css/taskBar/taskBar.css")
+        script(src="../config.js")
+        script(src="../lib/jquery.min.js")
+        script(src="../lib/jPages.min.js")
+        script(src="../lib/jquery.bpopup.js")
+        script(src="../lib/3.15/init.js")
+        script(src="../js/manymapcontrol.js")
+        script(src="../js/createdem.js")
+    body.demquanzidongshengcheng
+        .logo
+            div
+                img(src='../img/logo2.png')
+        .path
+            span 您当前的位置：
+            a 首页
+            span &gt
+            a 云工作台-高性能集群
+            span &gt
+            a DEM全自动生成
+        .bittitle
+            img(src='../img/b.png')
+            div
+                h1 DEM全自动生成
+                p 相比较人工生成DEM的操作繁琐、耗时长、效率低，DEM的全自动化生成极大地提高了生产效率，适合大规模DEM快速、批量处理并利用其高性能集群计算环境进行快速的输出。
+        .topimg
+            .imgbase
+                .topmenu
+                    button#openImg 打开前视影像
+                #leftcontent
+            .imgbase
+                .topmenu
+                    button#openDem 打开后视影像
+                #rightcontent
+         .bottomimg
+             .topmenu
+                 button#executeAlg 执行算法
+             #bottomcontent
+        #selectDem
+            .title
+                span 选择DEM数据
+                img(src="../img/close.png")
+            ul#tabul_selectDem
+            .holder_selectDem
+            #confirmDem 确认选择
+        #selectDem2
+            .title
+                span 选择影像数据
+                img(src="../img/close.png")
+            ul#tabul_selectDem2
+            .holder_selectDem2
+            #confirmDem2 确认选择
+        .taskContainer
+            .task
+                h3 任务进度
+                b
+                    p#processText(style='width:80% ', data-value='80')
+                progress#processBar.html5(max='100', value='80')
+                    .progress-bar
+                        span(style='width: 80%') 80%
+                .cancelTask.right
+                    b 取消任务
+                .taskButton
+                    .arrow.right
+                    b 查看任务
+            .taskDetail
+                hr
+                h3(style='margin:20px auto;') 详细信息
+                canvas#subTask(width='650px', height='360px') 您的浏览器不支持canvas！
+                br
+
